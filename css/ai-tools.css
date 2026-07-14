@@ -1,0 +1,482 @@
+/* ==========================
+   AI Tools Hero Section
+========================== */
+
+.ai-tools-hero {
+    padding: 120px 20px 80px;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #111827);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 10px 18px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.ai-tools-hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.ai-tools-hero h1 span {
+    color: #38bdf8;
+}
+
+.ai-tools-hero p {
+    max-width: 760px;
+    margin: 0 auto 35px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 14px 28px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #3b82f6;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #2563eb;
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    border: 2px solid #3b82f6;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #3b82f6;
+    transform: translateY(-3px);
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 18px;
+    padding: 25px;
+    backdrop-filter: blur(12px);
+    transition: 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    border-color: #3b82f6;
+}
+
+.stat-card h2 {
+    font-size: 2rem;
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+.stat-card p {
+    margin: 0;
+    color: #cbd5e1;
+}
+
+/* Responsive */
+
+@media (max-width:768px) {
+
+    .ai-tools-hero {
+        padding: 90px 20px 60px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+/* ==========================
+   Search & Filter Section
+========================== */
+
+.tools-filter-section {
+    padding: 80px 20px;
+    background: #111827;
+}
+
+.filter-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.filter-container h2 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.filter-container p {
+    color: #9ca3af;
+    margin-bottom: 35px;
+    font-size: 1rem;
+}
+
+/* Search Box */
+
+.search-box {
+    max-width: 700px;
+    margin: 0 auto 35px;
+}
+
+.search-box input{
+    display: block !important;
+    width: 100% !important;
+    height: 55px !important;
+    background: red !important;
+    color: white !important;
+    border: 3px solid yellow !important;
+    margin: 20px 0 !important;
+}
+
+.search-box input::placeholder {
+    color: #9ca3af;
+}
+
+.search-box input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 15px rgba(59,130,246,.35);
+}
+
+/* Category Buttons */
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.filter-btn {
+    padding: 12px 22px;
+    border-radius: 30px;
+    border: 2px solid #3b82f6;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.filter-btn:hover {
+    background: #3b82f6;
+    transform: translateY(-3px);
+}
+
+.filter-btn.active {
+    background: #3b82f6;
+    color: #ffffff;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+    .tools-filter-section{
+        padding:60px 18px;
+    }
+
+    .filter-container h2{
+        font-size:1.8rem;
+    }
+
+    .search-box input{
+        padding:16px;
+    }
+
+    .category-buttons{
+        gap:10px;
+    }
+
+    .filter-btn{
+        font-size:14px;
+        padding:10px 18px;
+    }
+}
+/* ==========================
+   AI Tool Cards
+========================== */
+
+.tools-section{
+    padding:80px 20px;
+    background:#0f172a;
+}
+
+.tools-grid{
+    max-width:1300px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.tool-card{
+
+    background:#1e293b;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:28px;
+
+    transition:.35s ease;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.tool-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.25);
+
+}
+
+.tool-logo{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:34px;
+
+    background:#2563eb;
+
+    margin-bottom:22px;
+
+}
+
+.tool-card h3{
+
+    color:#fff;
+
+    font-size:1.6rem;
+
+    margin-bottom:12px;
+
+}
+
+.tool-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+.tool-tags{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:22px;
+
+}
+
+.category{
+
+    background:#334155;
+
+    color:#fff;
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}
+
+.pricing{
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.free{
+
+    background:#16a34a;
+
+    color:#fff;
+
+}
+
+.paid{
+
+    background:#dc2626;
+
+    color:#fff;
+
+}
+
+.tool-footer{
+
+    margin-top:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.rating{
+
+    color:#facc15;
+
+    font-weight:700;
+
+}
+
+.visit-btn{
+
+    background:#3b82f6;
+
+    color:#fff;
+
+    padding:12px 20px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.visit-btn:hover{
+
+    background:#2563eb;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.tools-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.tool-card{
+
+padding:24px;
+
+}
+
+.tool-logo{
+
+width:60px;
+
+height:60px;
+
+font-size:30px;
+
+}
+
+.tool-card h3{
+
+font-size:1.4rem;
+
+}
+.load-more-container{
+    text-align:center;
+    margin-top:50px;
+}
+
+.load-more-btn{
+    padding:16px 40px;
+    border:none;
+    border-radius:12px;
+    background:#3b82f6;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.load-more-btn:hover{
+    transform:translateY(-3px);
+    background:#2563eb;
+}
+

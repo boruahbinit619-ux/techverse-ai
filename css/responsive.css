@@ -1,0 +1,312 @@
+/*
+==========================================
+ TechVerse AI v2.0
+ File : responsive.css
+==========================================
+*/
+
+/* ==========================================
+   Large Laptop
+========================================== */
+
+@media (max-width:1200px){
+
+.container,
+.navbar,
+.hero{
+
+    width:95%;
+
+}
+
+.hero{
+
+    gap:50px;
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+}
+
+}
+
+
+/* ==========================================
+   Laptop
+========================================== */
+
+@media (max-width:992px){
+
+.nav-links{
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    background: #0b1020;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.nav-links.active{
+    left: 0;
+}
+
+#menu-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:none;
+    border:none;
+    color:#fff;
+    font-size:30px;
+    cursor:pointer;
+    position: relative;
+  z-index: 1001;
+}
+
+
+
+.hero{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+    gap:50px;
+
+}
+
+.hero-left{
+
+    order:1;
+
+}
+
+.hero-right{
+
+    order:2;
+
+       margin-top:30px;
+}
+
+.hero-right img{
+
+    width:85%;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+}
+
+
+/* ==========================================
+   Tablet
+========================================== */
+
+@media (max-width:768px){
+
+:root{
+
+    --navbar-height:70px;
+
+}
+
+.logo{
+
+    font-size:24px;
+
+}
+
+.hero{
+
+    min-height:auto;
+
+    padding-top:90px;
+
+    padding-bottom:80px;
+
+}
+
+.hero h1{
+
+    font-size:40px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.hero-right img{
+
+    width:85%;
+
+}
+
+}
+
+
+/* ==========================================
+   Mobile
+========================================== */
+
+@media (max-width:576px){
+
+.hero{
+
+    gap:30px;
+
+}
+
+.hero h1{
+
+    font-size:36px;
+
+}
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+.hero-badge{
+
+    font-size:13px;
+
+    padding:8px 18px;
+
+}
+
+.logo{
+
+    font-size:22px;
+
+}
+
+.login-btn{
+
+    display:none;
+
+}
+
+#theme-toggle,
+#menu-btn{
+
+    width:42px;
+
+    height:42px;
+
+}
+
+.hero-right img{
+
+    width:95%;
+
+}
+
+}
+
+
+/* ==========================================
+   Small Mobile
+========================================== */
+
+@media (max-width:400px){
+
+.hero h1{
+
+    font-size:30px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+    width:100%;
+
+}
+
+}
+/* ==========================
+   Footer Responsive
+========================== */
+
+@media (max-width:768px){
+
+    .footer-container{
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:30px;
+    }
+
+    .footer-links,
+    .footer-social{
+        align-items:center;
+    }
+
+    .footer{
+        padding:50px 20px 20px;
+    }
+
+}
+/* =========================
+   Responsive Cards
+========================= */
+
+@media (max-width: 992px) {
+
+    .categories-grid,
+    .tools-grid,
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .categories-grid,
+    .tools-grid,
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .category-card,
+    .tool-card,
+    .stat-card {
+        width: 100%;
+    }
+
+}

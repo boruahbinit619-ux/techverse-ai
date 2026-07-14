@@ -1,0 +1,835 @@
+/* ==========================================
+   Blog Hero
+========================================== */
+
+.blog-hero{
+
+    padding:120px 20px 90px;
+
+    background:linear-gradient(135deg,#0b1120,#111827,#1e293b);
+
+    color:#ffffff;
+
+    text-align:center;
+}
+
+.blog-container{
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+.hero-badge{
+
+    display:inline-block;
+
+    padding:12px 22px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    backdrop-filter:blur(10px);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:28px;
+}
+
+.blog-hero h1{
+
+    font-size:clamp(2.8rem,6vw,4.8rem);
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    margin-bottom:20px;
+}
+
+.blog-hero h1 span{
+
+    color:#38bdf8;
+}
+
+.blog-hero p{
+
+    max-width:760px;
+
+    margin:0 auto 40px;
+
+    color:#cbd5e1;
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+}
+
+/* ==========================================
+   Hero Buttons
+========================================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+}
+
+.btn-primary,
+.btn-secondary{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-width:220px;
+
+    padding:15px 30px;
+
+    border-radius:14px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s;
+}
+
+.btn-primary{
+
+    background:#3b82f6;
+
+    color:#ffffff;
+}
+
+.btn-primary:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-4px);
+}
+
+.btn-secondary{
+
+    border:2px solid #3b82f6;
+
+    color:#ffffff;
+}
+
+.btn-secondary:hover{
+
+    background:#3b82f6;
+
+    transform:translateY(-4px);
+}
+
+/* ==========================================
+   Global Sections
+========================================== */
+
+section{
+
+    padding:90px 20px;
+}
+
+.section-title{
+
+    max-width:800px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+}
+
+.section-title h2{
+
+    color:#ffffff;
+
+    font-size:2.4rem;
+
+    margin-bottom:18px;
+
+    font-weight:800;
+}
+
+.section-title p{
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+    font-size:1.05rem;
+}
+
+/* ==========================================
+   Body
+========================================== */
+
+body{
+
+    background:#0f172a;
+
+    color:#ffffff;
+}
+/* ==========================================
+   Blog Categories
+========================================== */
+
+.blog-categories{
+    background:#111827;
+}
+
+.category-grid{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:28px;
+}
+
+.category-card{
+
+    background:#1e293b;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.35s ease;
+}
+
+.category-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.22);
+}
+
+.category-icon{
+
+    width:75px;
+
+    height:75px;
+
+    margin:0 auto 22px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:20px;
+
+    background:#2563eb;
+
+    font-size:34px;
+}
+
+.category-card h3{
+
+    color:#ffffff;
+
+    margin-bottom:15px;
+
+    font-size:1.5rem;
+}
+
+.category-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+
+/* ==========================================
+   Blog Cards
+========================================== */
+
+.blog-section,
+.latest-posts{
+
+    background:#0f172a;
+}
+
+.blog-grid{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+}
+
+.blog-card{
+
+    background:#1e293b;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:30px;
+
+    transition:.35s ease;
+}
+
+.blog-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.22);
+}
+
+.blog-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+    font-size:1.45rem;
+}
+
+.blog-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+
+    margin-bottom:18px;
+}
+
+/* ==========================================
+   Blog Meta
+========================================== */
+
+.blog-meta{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:18px;
+}
+
+.blog-meta span{
+
+    background:#334155;
+
+    color:#ffffff;
+
+    padding:8px 14px;
+
+    border-radius:18px;
+
+    font-size:14px;
+}
+
+/* ==========================================
+   Featured Blog
+========================================== */
+
+.featured-blog{
+
+    background:#111827;
+}
+
+.featured-card{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    background:linear-gradient(135deg,#1e293b,#0f172a);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:40px;
+
+    transition:.35s ease;
+}
+
+.featured-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 20px 45px rgba(59,130,246,.20);
+}
+
+.featured-badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#3b82f6;
+
+    color:#ffffff;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+}
+
+.featured-content h3{
+
+    font-size:2rem;
+
+    color:#ffffff;
+
+    margin-bottom:18px;
+}
+
+.featured-content p{
+
+    color:#cbd5e1;
+
+    line-height:1.9;
+
+    margin-bottom:25px;
+}
+/* ==========================================
+   Newsletter Section
+========================================== */
+
+.newsletter-section{
+    background:#111827;
+}
+
+.newsletter-box{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+}
+
+.newsletter-box input{
+
+    flex:1;
+
+    min-width:260px;
+
+    padding:16px 20px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:14px;
+
+    background:#1e293b;
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.newsletter-box input::placeholder{
+
+    color:#94a3b8;
+}
+
+/* ==========================================
+   Popular Tags
+========================================== */
+
+.tags-section{
+
+    background:#0f172a;
+}
+
+.tags-container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:14px;
+}
+
+.tag{
+
+    padding:10px 18px;
+
+    border-radius:25px;
+
+    background:#1e293b;
+
+    color:#ffffff;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.3s ease;
+
+    cursor:pointer;
+}
+
+.tag:hover{
+
+    background:#3b82f6;
+
+    transform:translateY(-3px);
+}
+
+/* ==========================================
+   Final CTA
+========================================== */
+
+.blog-cta{
+
+    padding:100px 20px;
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8,#0f172a);
+
+    text-align:center;
+}
+
+.cta-content{
+
+    max-width:850px;
+
+    margin:auto;
+}
+
+.cta-content h2{
+
+    font-size:clamp(2rem,5vw,3.2rem);
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+    font-weight:800;
+}
+
+.cta-content p{
+
+    color:#dbeafe;
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+}
+
+/* ==========================================
+   Smooth Animation
+========================================== */
+
+.category-card,
+.blog-card,
+.featured-card,
+.tag{
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease,
+        background .35s ease;
+}
+/* ==========================================
+   Responsive Design
+========================================== */
+
+@media (max-width:992px){
+
+.section-title h2{
+
+font-size:2rem;
+
+}
+
+.featured-card{
+
+padding:30px;
+
+}
+
+.featured-content h3{
+
+font-size:1.8rem;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.blog-hero{
+
+padding:90px 20px 70px;
+
+}
+
+.blog-hero h1{
+
+font-size:2.5rem;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+width:100%;
+
+max-width:320px;
+
+}
+
+.category-grid,
+.blog-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.newsletter-box{
+
+flex-direction:column;
+
+}
+
+.newsletter-box input,
+.newsletter-box .btn-primary{
+
+width:100%;
+
+}
+
+.section-title{
+
+margin-bottom:45px;
+
+}
+
+.section-title h2{
+
+font-size:1.8rem;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.blog-hero h1{
+
+font-size:2rem;
+
+}
+
+.hero-badge{
+
+font-size:13px;
+
+padding:10px 18px;
+
+}
+
+.category-card,
+.blog-card,
+.featured-card{
+
+padding:22px;
+
+}
+
+.featured-content h3{
+
+font-size:1.5rem;
+
+}
+
+.cta-content h2{
+
+font-size:1.8rem;
+
+}
+
+.cta-content p{
+
+font-size:.95rem;
+
+}
+
+.tag{
+
+font-size:13px;
+
+padding:8px 14px;
+
+}
+
+}
+
+/* ==========================================
+   Smooth Scroll
+========================================== */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+/* ==========================================
+   Scrollbar
+========================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111827;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#3b82f6;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#2563eb;
+
+}
+
+/* ==========================================
+   Text Selection
+========================================== */
+
+::selection{
+
+background:#3b82f6;
+
+color:#ffffff;
+
+}
+
+/* ==========================================
+   Accessibility
+========================================== */
+
+.btn-primary:focus,
+.btn-secondary:focus,
+.category-card:focus,
+.blog-card:focus,
+.tag:focus{
+
+outline:3px solid #38bdf8;
+
+outline-offset:4px;
+
+}
+
+/* ==========================================
+   Images
+========================================== */
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+/* ==========================================
+   Utility Classes
+========================================== */
+
+.text-center{
+
+text-align:center;
+
+}
+
+.mt-40{
+
+margin-top:40px;
+
+}
+
+.mb-40{
+
+margin-bottom:40px;
+
+}
+
+.hidden{
+
+display:none;
+
+}

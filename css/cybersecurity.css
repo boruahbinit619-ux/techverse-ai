@@ -1,0 +1,723 @@
+/* ==========================================
+   Cybersecurity Hero
+========================================== */
+
+.cyber-hero{
+    padding:120px 20px 90px;
+    background:linear-gradient(135deg,#0b1120,#111827,#1e293b);
+    color:#ffffff;
+    text-align:center;
+}
+
+.cyber-container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.hero-badge{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:50px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.12);
+    backdrop-filter:blur(12px);
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:28px;
+}
+
+.cyber-hero h1{
+    font-size:clamp(2.6rem,6vw,4.7rem);
+    line-height:1.15;
+    font-weight:800;
+    margin-bottom:22px;
+}
+
+.cyber-hero h1 span{
+    color:#38bdf8;
+}
+
+.cyber-hero p{
+    max-width:760px;
+    margin:0 auto 40px;
+    color:#cbd5e1;
+    line-height:1.9;
+    font-size:1.08rem;
+}
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.btn-primary,
+.btn-secondary{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    min-width:210px;
+
+    padding:15px 28px;
+
+    border-radius:14px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s;
+}
+
+.btn-primary{
+
+    background:#3b82f6;
+    color:#ffffff;
+}
+
+.btn-primary:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-4px);
+}
+
+.btn-secondary{
+
+    border:2px solid #3b82f6;
+
+    color:#ffffff;
+}
+
+.btn-secondary:hover{
+
+    background:#3b82f6;
+
+    transform:translateY(-4px);
+}
+
+/* ==========================================
+   Global Sections
+========================================== */
+
+section{
+
+    padding:90px 20px;
+}
+
+.section-title{
+
+    text-align:center;
+
+    max-width:800px;
+
+    margin:0 auto 60px;
+}
+
+.section-title h2{
+
+    color:#ffffff;
+
+    font-size:2.4rem;
+
+    margin-bottom:18px;
+
+    font-weight:800;
+}
+
+.section-title p{
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+    font-size:1.05rem;
+}
+
+/* ==========================================
+   Background
+========================================== */
+
+body{
+
+    background:#0f172a;
+
+    color:#ffffff;
+}
+/* ==========================================
+   Learning Cards
+========================================== */
+
+.learning-section{
+    background:#111827;
+}
+
+.learning-grid{
+
+    max-width:1300px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:28px;
+}
+
+.learning-card{
+
+    background:#1e293b;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:32px 28px;
+
+    text-align:center;
+
+    transition:.35s;
+}
+
+.learning-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.20);
+}
+
+.learning-card .icon{
+
+    width:75px;
+    height:75px;
+
+    margin:0 auto 20px;
+
+    border-radius:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:34px;
+
+    background:#2563eb;
+}
+
+.learning-card h3{
+
+    color:#ffffff;
+
+    font-size:1.5rem;
+
+    margin-bottom:15px;
+}
+
+.learning-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+
+/* ==========================================
+   Roadmap Timeline
+========================================== */
+
+.roadmap-section{
+
+    background:#0f172a;
+}
+
+.roadmap-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.roadmap-item{
+
+    display:flex;
+
+    gap:25px;
+
+    align-items:flex-start;
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+.roadmap-item:hover{
+
+    border-color:#3b82f6;
+
+    transform:translateX(10px);
+}
+
+.roadmap-number{
+
+    min-width:65px;
+    height:65px;
+
+    border-radius:50%;
+
+    background:#3b82f6;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:24px;
+    font-weight:700;
+}
+
+.roadmap-content h3{
+
+    color:#ffffff;
+
+    margin-bottom:12px;
+}
+
+.roadmap-content p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+
+/* ==========================================
+   Certifications
+========================================== */
+
+.certifications-section{
+
+    background:#111827;
+}
+
+.certification-grid{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:28px;
+}
+
+.cert-card{
+
+    background:#1e293b;
+
+    border-radius:20px;
+
+    padding:28px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+.cert-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.20);
+}
+
+.cert-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:14px;
+
+    font-size:1.4rem;
+}
+
+.cert-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+/* ==========================================
+   Practice Platforms
+========================================== */
+
+.practice-section{
+    background:#0f172a;
+}
+
+.practice-grid{
+    max-width:1300px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:28px;
+}
+
+.practice-card{
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+.practice-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.20);
+}
+
+.practice-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+    font-size:1.35rem;
+}
+
+.practice-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+
+/* ==========================================
+   Cybersecurity Domains
+========================================== */
+
+.domains-section{
+
+    background:#111827;
+}
+
+.domains-grid{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:22px;
+}
+
+.domain-card{
+
+    background:#1e293b;
+
+    padding:24px;
+
+    border-radius:16px;
+
+    text-align:center;
+
+    font-weight:700;
+
+    font-size:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+.domain-card:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-6px);
+}
+
+/* ==========================================
+   Cybersecurity Tools
+========================================== */
+
+.tools-section{
+
+    background:#0f172a;
+}
+
+.tools-grid{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:28px;
+}
+
+.tool-card{
+
+    background:#1e293b;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+.tool-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.20);
+}
+
+.tool-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+    font-size:1.4rem;
+}
+
+.tool-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+/* ==========================================
+   Call To Action
+========================================== */
+
+.cyber-cta{
+
+    padding:100px 20px;
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8,#0f172a);
+
+    text-align:center;
+}
+
+.cta-content{
+
+    max-width:850px;
+
+    margin:auto;
+}
+
+.cta-content h2{
+
+    font-size:clamp(2rem,5vw,3.2rem);
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+
+    font-weight:800;
+}
+
+.cta-content p{
+
+    color:#dbeafe;
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+}
+
+/* ==========================================
+   Smooth Animation
+========================================== */
+
+.learning-card,
+.practice-card,
+.cert-card,
+.tool-card,
+.domain-card,
+.roadmap-item{
+
+    transition:
+    transform .35s ease,
+    box-shadow .35s ease,
+    border-color .35s ease;
+}
+
+/* ==========================================
+   Responsive Design
+========================================== */
+
+@media (max-width:992px){
+
+.section-title h2{
+
+font-size:2rem;
+
+}
+
+.roadmap-item{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+.roadmap-number{
+
+margin-bottom:15px;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.cyber-hero{
+
+padding:90px 20px 70px;
+
+}
+
+.cyber-hero h1{
+
+font-size:2.5rem;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+width:100%;
+max-width:320px;
+
+}
+
+.learning-grid,
+.practice-grid,
+.certification-grid,
+.tools-grid,
+.domains-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.section-title{
+
+margin-bottom:45px;
+
+}
+
+.section-title h2{
+
+font-size:1.8rem;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.cyber-hero h1{
+
+font-size:2rem;
+
+}
+
+.hero-badge{
+
+font-size:13px;
+
+padding:10px 18px;
+
+}
+
+.learning-card,
+.practice-card,
+.cert-card,
+.tool-card{
+
+padding:24px;
+
+}
+
+.roadmap-item{
+
+padding:20px;
+
+}
+
+.roadmap-number{
+
+width:55px;
+height:55px;
+
+font-size:20px;
+
+}
+
+.cta-content h2{
+
+font-size:1.8rem;
+
+}
+
+.cta-content p{
+
+font-size:.95rem;
+
+}
+
+}

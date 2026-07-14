@@ -1,0 +1,663 @@
+/* ==========================================
+   404 Hero
+========================================== */
+
+.error-hero{
+
+    padding:120px 20px 90px;
+
+    background:linear-gradient(135deg,#0b1120,#111827,#1e293b);
+
+    color:#ffffff;
+
+    text-align:center;
+}
+
+.error-container{
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+.hero-badge{
+
+    display:inline-block;
+
+    padding:12px 22px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    backdrop-filter:blur(10px);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:28px;
+}
+
+.error-hero h1{
+
+    font-size:clamp(5rem,12vw,8rem);
+
+    font-weight:900;
+
+    line-height:1;
+
+    margin-bottom:16px;
+}
+
+.error-hero h1 span{
+
+    color:#38bdf8;
+}
+
+.error-hero h2{
+
+    font-size:2.2rem;
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+    font-weight:700;
+}
+
+.error-hero p{
+
+    max-width:760px;
+
+    margin:0 auto 40px;
+
+    color:#cbd5e1;
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+}
+
+/* ==========================================
+   Hero Buttons
+========================================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+}
+
+.btn-primary,
+.btn-secondary{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-width:220px;
+
+    padding:15px 30px;
+
+    border-radius:14px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s ease;
+}
+
+.btn-primary{
+
+    background:#3b82f6;
+
+    color:#ffffff;
+}
+
+.btn-primary:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-4px);
+}
+
+.btn-secondary{
+
+    border:2px solid #3b82f6;
+
+    color:#ffffff;
+}
+
+.btn-secondary:hover{
+
+    background:#3b82f6;
+
+    transform:translateY(-4px);
+}
+
+/* ==========================================
+   Global Sections
+========================================== */
+
+section{
+
+    padding:90px 20px;
+}
+
+.section-title{
+
+    max-width:800px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+}
+
+.section-title h2{
+
+    color:#ffffff;
+
+    font-size:2.4rem;
+
+    margin-bottom:18px;
+
+    font-weight:800;
+}
+
+.section-title p{
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+    font-size:1.05rem;
+}
+
+/* ==========================================
+   Body
+========================================== */
+
+body{
+
+    background:#0f172a;
+
+    color:#ffffff;
+
+    font-family:Arial,Helvetica,sans-serif;
+}
+/* ==========================================
+   Error Sections
+========================================== */
+
+.error-section{
+
+    background:#111827;
+}
+
+/* ==========================================
+   Error Grid
+========================================== */
+
+.error-grid{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+}
+
+/* ==========================================
+   Error Cards
+========================================== */
+
+.error-card{
+
+    background:#1e293b;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.35s ease;
+}
+
+.error-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 35px rgba(59,130,246,.22);
+}
+
+.error-icon{
+
+    width:75px;
+
+    height:75px;
+
+    margin:0 auto 22px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:20px;
+
+    background:#2563eb;
+
+    font-size:34px;
+}
+
+.error-card h3{
+
+    color:#ffffff;
+
+    margin-bottom:15px;
+
+    font-size:1.5rem;
+}
+
+.error-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+
+    margin-bottom:22px;
+}
+
+/* ==========================================
+   Card Buttons
+========================================== */
+
+.error-card .btn-primary,
+.error-card .btn-secondary{
+
+    min-width:140px;
+
+    padding:12px 24px;
+
+    font-size:15px;
+}
+
+/* ==========================================
+   Content Layout
+========================================== */
+
+.error-content{
+
+    max-width:1100px;
+
+    margin:auto;
+}
+
+.error-content p{
+
+    color:#cbd5e1;
+
+    line-height:1.9;
+
+    margin-bottom:20px;
+}
+/* ==========================================
+   Final CTA
+========================================== */
+
+.error-cta{
+
+    padding:100px 20px;
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8,#0f172a);
+
+    text-align:center;
+}
+
+.cta-content{
+
+    max-width:850px;
+
+    margin:auto;
+}
+
+.cta-content h2{
+
+    font-size:clamp(2rem,5vw,3.2rem);
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+    font-weight:800;
+}
+
+.cta-content p{
+
+    color:#dbeafe;
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+}
+
+/* ==========================================
+   Error Card Hover Animation
+========================================== */
+
+.error-card:hover .error-icon{
+
+    transform:rotate(8deg) scale(1.08);
+
+    transition:transform .35s ease;
+}
+
+/* ==========================================
+   Smooth Animation
+========================================== */
+
+.error-card,
+.error-icon{
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease;
+}
+
+/* ==========================================
+   CTA Buttons
+========================================== */
+
+.error-cta .hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+}
+
+/* ==========================================
+   Floating Animation
+========================================== */
+
+@keyframes float{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+}
+
+.error-hero h1{
+
+    animation:float 3s ease-in-out infinite;
+
+}
+
+/* ==========================================
+   Glow Effect
+========================================== */
+
+.error-hero h1 span{
+
+    text-shadow:0 0 20px rgba(56,189,248,.7);
+}
+/* ==========================================
+   Responsive Design
+========================================== */
+
+@media (max-width:992px){
+
+.section-title h2{
+
+font-size:2rem;
+
+}
+
+.error-card{
+
+padding:28px;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.error-hero{
+
+padding:90px 20px 70px;
+
+}
+
+.error-hero h1{
+
+font-size:5rem;
+
+}
+
+.error-hero h2{
+
+font-size:1.8rem;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+width:100%;
+
+max-width:320px;
+
+}
+
+.error-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.section-title{
+
+margin-bottom:45px;
+
+}
+
+.section-title h2{
+
+font-size:1.8rem;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.error-hero h1{
+
+font-size:4rem;
+
+}
+
+.hero-badge{
+
+font-size:13px;
+
+padding:10px 18px;
+
+}
+
+.error-card{
+
+padding:22px;
+
+}
+
+.error-card h3{
+
+font-size:1.3rem;
+
+}
+
+.cta-content h2{
+
+font-size:1.8rem;
+
+}
+
+.cta-content p{
+
+font-size:.95rem;
+
+}
+
+}
+
+/* ==========================================
+   Smooth Scroll
+========================================== */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+/* ==========================================
+   Scrollbar
+========================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111827;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#3b82f6;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#2563eb;
+
+}
+
+/* ==========================================
+   Text Selection
+========================================== */
+
+::selection{
+
+background:#3b82f6;
+
+color:#ffffff;
+
+}
+
+/* ==========================================
+   Accessibility
+========================================== */
+
+.btn-primary:focus,
+.btn-secondary:focus,
+.error-card:focus{
+
+outline:3px solid #38bdf8;
+
+outline-offset:4px;
+
+}
+
+/* ==========================================
+   Images
+========================================== */
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+/* ==========================================
+   Utility Classes
+========================================== */
+
+.text-center{
+
+text-align:center;
+
+}
+
+.mt-40{
+
+margin-top:40px;
+
+}
+
+.mb-40{
+
+margin-bottom:40px;
+
+}
+
+.hidden{
+
+display:none;
+
+}

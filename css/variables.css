@@ -1,0 +1,160 @@
+/*
+==========================================
+ TechVerse AI v2.0
+ File : variables.css
+ Developer : Binit Kumar Boruah
+==========================================
+*/
+
+:root{
+
+    /* ==========================
+       Brand Colors
+    ========================== */
+
+    --primary:#00E5FF;
+    --primary-dark:#00BCD4;
+    --secondary:#7C3AED;
+    --accent:#22C55E;
+
+    /* ==========================
+       Background
+    ========================== */
+
+    --bg:#0B1120;
+    --bg-secondary:#111827;
+    --surface:#1E293B;
+    --surface-light:#334155;
+
+    /* ==========================
+       Text
+    ========================== */
+
+    --text:#F8FAFC;
+    --text-secondary:#CBD5E1;
+    --text-muted:#94A3B8;
+
+    /* ==========================
+       Border
+    ========================== */
+
+    --border:#1E293B;
+    --border-light:#334155;
+
+    /* ==========================
+       Status
+    ========================== */
+
+    --success:#22C55E;
+    --warning:#F59E0B;
+    --danger:#EF4444;
+    --info:#3B82F6;
+
+    /* ==========================
+       Fonts
+    ========================== */
+
+    --font-main:"Poppins",sans-serif;
+    --font-heading:"Outfit",sans-serif;
+
+    /* ==========================
+       Font Size
+    ========================== */
+
+    --fs-xs:12px;
+    --fs-sm:14px;
+    --fs-md:16px;
+    --fs-lg:18px;
+    --fs-xl:22px;
+    --fs-2xl:28px;
+    --fs-3xl:36px;
+    --fs-4xl:48px;
+
+    /* ==========================
+       Font Weight
+    ========================== */
+
+    --fw-light:300;
+    --fw-normal:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+
+    /* ==========================
+       Spacing
+    ========================== */
+
+    --space-xs:8px;
+    --space-sm:12px;
+    --space-md:20px;
+    --space-lg:32px;
+    --space-xl:48px;
+    --space-2xl:72px;
+
+    /* ==========================
+       Radius
+    ========================== */
+
+    --radius-sm:8px;
+    --radius-md:14px;
+    --radius-lg:20px;
+    --radius-xl:28px;
+    --radius-round:999px;
+
+    /* ==========================
+       Shadow
+    ========================== */
+
+    --shadow-sm:0 4px 12px rgba(0,0,0,.20);
+    --shadow-md:0 8px 25px rgba(0,0,0,.30);
+    --shadow-lg:0 20px 45px rgba(0,0,0,.45);
+
+    /* ==========================
+       Glass Effect
+    ========================== */
+
+    --glass:rgba(255,255,255,.05);
+    --glass-border:rgba(255,255,255,.10);
+    --blur:18px;
+
+    /* ==========================
+       Container
+    ========================== */
+
+    --container:1280px;
+
+    /* ==========================
+       Navbar
+    ========================== */
+
+    --navbar-height:80px;
+
+    /* ==========================
+       Transition
+    ========================== */
+
+    --transition:.35s ease;
+
+}
+/* ==========================
+   Light Theme
+========================== */
+body.light-theme{
+
+    --bg:#f5f7fb;
+    --bg-secondary:#eef3f8;
+
+    --surface:#ffffff;
+    --surface-light:#e2e8f0;
+
+    --text:#111827;
+    --text-secondary:#4b5563;
+    --text-muted:#6b7280;
+
+    --primary:#00cfff;
+    --primary-dark:#00b8e6;
+
+    --border:rgba(0,0,0,.08);
+    --border-light:rgba(0,0,0,.12);
+
+}
